@@ -2,28 +2,28 @@
   ![Maintenance](https://img.shields.io/static/v1??style=social&logo=appveyor=label=Progress=&color=<blueviolet>)
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# yes
+# ReadMe Generator
 
 ## Description
-yes
+helps create a READme file.
 
 ## Table of Contects
-yes
+Installation
 
 ## Installation
-yes
+Yes
 
 ## Usage
-yes
+Usage
 
 ##  License 
-yes 
+MIT 
 
 ## Contributing
-yes
+Submitted code pull it
 
 ##  Tests
-yes
+No tests
 
 ![alt text](https://avatars3.githubusercontent.com/u/60011668?v=4)
 

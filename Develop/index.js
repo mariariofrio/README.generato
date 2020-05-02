@@ -22,17 +22,17 @@ const questions = [{
     {
     type: "input",
     name: "Table of Contents",
-    message: "?"
+    message: "Your table contest?"
     },
     {
     type: "input",
     name: "Installation",
-    message: ""
+    message: "Instal it here"
     },
     {
     type: "input",
     name: "Usage",
-    message: ""
+    message: "What is the usage?"
     },
     {
     type: "input",
@@ -42,13 +42,13 @@ const questions = [{
     {
     type: "input",
     name: "Contributing",
-    message: ""
+    message: "Who is contributing?"
     },
 
     {
     type: "input",
     name: "Tests",
-    message: ""
+    message: "Any tests?"
     }
 ];
 
@@ -79,7 +79,7 @@ async function init() {
     console.log(dataObject)
     const mdString = mdgen(dataObject)
     console.log(mdString)
-    fs.writeFile('read.md', mdString, (err) => {
+    fs.writeFile('README.md', mdString, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
       });

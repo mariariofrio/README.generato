@@ -1,39 +1,34 @@
-function generateMarkdown(data) {
-  return `
+
   ![Maintenance](https://img.shields.io/static/v1??style=social&logo=appveyor=label=Progress=&color=<blueviolet>)
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# ${data["projectTitle"]}
+# readme generator
 
 ## Description
-${data.Description}
+readme
 
 ## Table of Contects
-${data.tableofContects}
+a lot
 
 ## Installation
-${data.Installation}
+yes
 
 ## Usage
-${data.Usage}
+go ahead
 
 ##  License 
-${data.License} 
+do it 
 
 ## Contributing
-${data.Contributing}
+me
 
 ##  Tests
-${data.Tests}
+okay
 
-![alt text](${data.image})
+![alt text](https://avatars3.githubusercontent.com/u/60011668?v=4)
 
 ## Made by 
-${data.username}
+mariariofrio
 ## Email
-${data.email}
+null
 
-`
-}
-
-module.exports = generateMarkdown;
